@@ -35,12 +35,3 @@ body {
   background: rgba(255, 255, 255, 0.02);
   pointer-events: none;
 }
-
-.img-gray {
-  filter: grayscale(100%);
-  transition: 0.3s;
-}
-
-.img-gray:hover {
-  filter: grayscale(0%);
-}

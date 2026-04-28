@@ -14,6 +14,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/abullogo.png" type="image/png">
+    
 </head>
 <body>
     <!-- NAVBAR -->
@@ -21,17 +25,37 @@
         <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
            
             <!-- Logo -->
-            <div class="text-white font-bold tracking-widest">ABUL TEAM</div>
+            <a href="index.html" class="flex items-center">
+                <img src="assets/icons/abullogo.png" alt="Abul Team Logo" class="h-8 w-auto">
+            </a>
 
-            <ul class="flex gap-6 text-sm text-gray-400">
-            <li><a href="index.html" class="nav-link text-gray-400 hover:text-white">Beranda</a></li>
-            <li><a href="about.html" class="nav-link text-gray-400 hover:text-white text-white">Tentang</a></li>
+            <!-- Desktop Navigation -->
+            <ul class="hidden md:flex gap-6 text-sm text-gray-400">
+            <li><a href="index.html" class="nav-link text-gray-400 hover:text-white text-white">Beranda</a></li>
+            <li><a href="about.html" class="nav-link text-gray-400 hover:text-white">Tentang</a></li>
             <li><a href="members.html" class="nav-link text-gray-400 hover:text-white">Anggota</a></li>
             <li><a href="events.html" class="nav-link text-gray-400 hover:text-white">Kegiatan</a></li>
             <li><a href="news.html" class="nav-link text-gray-400 hover:text-white">Berita</a></li>
             <li><a href="gallery.html" class="nav-link text-gray-400 hover:text-white">Galeri</a></li>
             <li><a href="contact.html" class="nav-link text-gray-400 hover:text-white">Kontak</a></li>
             </ul>
+
+            <!-- Mobile Navigation Toggle -->
+            <button id="menuBtn" class="md:hidden text-white text-2xl">
+                &#9776;
+            </button>
+
+            <!-- Mobile Navigation Menu -->
+            <ul id="mobileMenu" class="hidden flex flex-col gap-4 px-6 pb-4 text-sm text-gray-400 md:hidden">
+            <li><a href="index.html" class="nav-link text-gray-400 hover:text-white text-white">Beranda</a></li>
+            <li><a href="about.html" class="nav-link text-gray-400 hover:text-white">Tentang</a></li>
+            <li><a href="members.html" class="nav-link text-gray-400 hover:text-white">Anggota</a></li>
+            <li><a href="events.html" class="nav-link text-gray-400 hover:text-white">Kegiatan</a></li>
+            <li><a href="news.html" class="nav-link text-gray-400 hover:text-white">Berita</a></li>
+            <li><a href="gallery.html" class="nav-link text-gray-400 hover:text-white">Galeri</a></li>
+            <li><a href="contact.html" class="nav-link text-gray-400 hover:text-white">Kontak</a></li>
+            </ul>
+
         </nav>
     </header>
 
@@ -39,7 +63,7 @@
     <main>
         
         <section class="max-w-6xl mx-auto px-6 py-16">
-            <h1 class="text-3xl font-bold text-white mb-6">Tentang Abul Team</h1>
+            <h1 class="text-3xl font-bold text-white mb-6">TENTANG KAMI</h1>
             <p class="text-gray-400 text-lg leading-relaxed">
                 Abul Team merupakan sebuah perkumpulan yang berdiri sejak tahun 2017, yang awalnya merupakan kubu kecil di kelas X IPA 4. Kata "Abul" sendiri tidak bermakna lebih daripada "Anak Gembul", yang awalnya merupakan julukan untuk salah satu pendiri kami yakni Zakky. Seiring berjalannya waktu, julukan ini berubah menjadi nama resmi kami, yang kemudian diikuti dengan penambahan kata "Team". Formasi awal kami terdiri dari Zakky, Kukuh, Bibin, Haikal (mantan anggota), Hafidz, Azizzu, dan Dede.
             </p>
@@ -51,6 +75,9 @@
             </p>
             <p class="text-gray-400 text-lg leading-relaxed mt-4">
                 Hingga hari ini, Abul Team memiliki lebih dari 20 anggota, baik aktif maupun pasif. Kami telah melewati berbagai macam dinamika seperti konflik internal hingga perubahan anggota (penambahan dan pengurangan). Layaknya keluarga, kami yakin hubungan kami tidak akan selalu berjalan mulus karena perbedaan karakter, namun kami percaya bahwa Abul Team akan tetap menjadi wadah yang menyenangkan untuk berkumpul dan berbagi cerita.
+            </p>
+            <p class="text-gray-400 text-lg leading-relaxed mt-4">
+                Per Juni 2025, setelah terjadi perbincangan singkat perihal ulang tahun Abul Team, akhirnya kami menetapkan Hari Jadi Abul Team jatuh setiap tanggal 18 Agustus.
             </p>
         </section>
 

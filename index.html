@@ -14,6 +14,10 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/abullogo.png" type="image/png">
+
 </head>
 <body>
     <!-- NAVBAR -->
@@ -21,9 +25,12 @@
         <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
            
             <!-- Logo -->
-            <div class="text-white font-bold tracking-widest">ABUL TEAM</div>
+            <a href="index.html" class="flex items-center">
+                <img src="assets/icons/abullogo.png" alt="Abul Team Logo" class="h-8 w-auto">
+            </a>
 
-            <ul class="flex gap-6 text-sm text-gray-400">
+            <!-- Desktop Navigation -->
+            <ul class="hidden md:flex gap-6 text-sm text-gray-400">
             <li><a href="index.html" class="nav-link text-gray-400 hover:text-white text-white">Beranda</a></li>
             <li><a href="about.html" class="nav-link text-gray-400 hover:text-white">Tentang</a></li>
             <li><a href="members.html" class="nav-link text-gray-400 hover:text-white">Anggota</a></li>
@@ -32,6 +39,23 @@
             <li><a href="gallery.html" class="nav-link text-gray-400 hover:text-white">Galeri</a></li>
             <li><a href="contact.html" class="nav-link text-gray-400 hover:text-white">Kontak</a></li>
             </ul>
+
+            <!-- Mobile Navigation Toggle -->
+            <button id="menuBtn" class="md:hidden text-white text-2xl">
+                &#9776;
+            </button>
+
+            <!-- Mobile Navigation Menu -->
+            <ul id="mobileMenu" class="hidden flex flex-col gap-4 px-6 pb-4 text-sm text-gray-400 md:hidden">
+            <li><a href="index.html" class="nav-link text-gray-400 hover:text-white text-white">Beranda</a></li>
+            <li><a href="about.html" class="nav-link text-gray-400 hover:text-white">Tentang</a></li>
+            <li><a href="members.html" class="nav-link text-gray-400 hover:text-white">Anggota</a></li>
+            <li><a href="events.html" class="nav-link text-gray-400 hover:text-white">Kegiatan</a></li>
+            <li><a href="news.html" class="nav-link text-gray-400 hover:text-white">Berita</a></li>
+            <li><a href="gallery.html" class="nav-link text-gray-400 hover:text-white">Galeri</a></li>
+            <li><a href="contact.html" class="nav-link text-gray-400 hover:text-white">Kontak</a></li>
+            </ul>
+
         </nav>
     </header>
 
@@ -74,11 +98,18 @@
                 </h2>
 
                 <p class="text-gray-400 leading-relaxed mb-4">
-                    Abul Team berdiri sejak 2017 di semester genap kelas X, yang awalnya dicetuskan untuk Zakky sebagai "Anak Gembul." Mulanya perkumpulan ini hanya terdiri dari sebagian anak laki-laki di kelas X IPA 4. Kemudian tak terasa kelas X berakhir, dan para anggota tersebar ke berbagai kelas. Bukannya bubar, justru anggota semakin banyak hingga akhirnya nyaris seluruh rombongan kelas XI IPA bergabung ke dalam grup. Namun, karena sedikit permasalahan dari eksternal dan penyesuaian kembali, maka hanya sebagian dari grup itu yang merasa cocok dengan pergaulan Abul Team dan bertahan di dalamnya. Kami masih kedatangan anggota baru hingga lulus SMA.
+                    Abul Team merupakan sebuah perkumpulan yang berdiri sejak tahun 2017,yang awalnya adalah singkatan dari "Anak Gembul", julukan untuk Zakky. Seiring berjalannya waktu, julukan ini berubah menjadi nama resmi kami, yang kemudian diikuti dengan penambahan kata "Team".
                 </p>
                 <p class="text-gray-400 leading-relaxed">
-                    Per Juni 2025, setelah terjadi perbincangan singkat perihal ulang tahun Abul Team, akhirnya kami menetapkan Hari Jadi Abul Team jatuh setiap tanggal 18 Agustus.
+                    Per Juni 2025, kami menetapkan Hari Jadi Abul Team jatuh setiap tanggal 18 Agustus.
                 </p>
+
+                <!-- Tombol Lihat Selengkapnya -->
+                <div class="mt-6">
+                    <a href="about.html" 
+                        class="border border-gray-600 text-gray-400 px-5 py-2 hover:border-white hover:text-white transition">Baca Selengkapnya
+                    </a> 
+                </div>
 
             </div>
         </section> 
@@ -103,24 +134,28 @@
                 <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
                     <img src="assets/images/zakky.png" class="aspect-square object-cover mb-4" alt="Foto Zakky">
                     <h3 class="text-sm tracking-wide">Muzakky D.R.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Game / Koordinator Kegiatan</p>
                 </div>
 
                 <!-- Card 2 -->
                 <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
                     <img src="assets/images/kukuh.png" class="aspect-square object-cover mb-4" alt="Foto Kukuh">
                     <h3 class="text-sm tracking-wide">Kukuh D.L.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Tim Hore</p>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
                     <img src="assets/images/bibin.png" class="aspect-square object-cover mb-4" alt="Foto Bibin">
                     <h3 class="text-sm tracking-wide">Bibin S.P.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Kesehatan</p>
                 </div>
 
                 <!-- Card 4 -->
                 <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
                     <img src="assets/images/hafidz.png" class="aspect-square object-cover mb-4" alt="Foto Hafidz">
                     <h3 class="text-sm tracking-wide">A. Hafidz A.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Game</p>
                 </div>
 
             </div>
@@ -212,7 +247,7 @@
                 </div>
 
                 <div class="p-4">
-                    <h3 class="font-bold">
+                    <h3 class="font-bold mt-4">
                         Dua Anggota Abul Team akhirnya resmi menikah dengan pasangan masing-masing!
                     </h3>
                     <p class="text-gray-400 text-sm mt-2">
