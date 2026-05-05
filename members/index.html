@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are Friends, We are Family, We are Abul Team.">
+    <title>Anggota | Abul Team</title>
+
+    <!-- Tailwind CSS -->   
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/icons/abullogo.png" type="image/png">
+    
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header class="border-b border-gray-800">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+           
+            <!-- Logo -->
+            <a href="../" class="flex items-center">
+                <img src="../assets/icons/abullogo.png" alt="Abul Team Logo" class="h-8 w-auto">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <ul class="hidden md:flex gap-6 text-sm text-gray-400">
+            <li><a href="../" class="nav-link text-gray-400 hover:text-white">Beranda</a></li>
+            <li><a href="../about/" class="nav-link text-gray-400 hover:text-white">Tentang</a></li>
+            <li><a href="./" class="nav-link text-gray-400 hover:text-white text-white">Anggota</a></li>
+            <li><a href="../events/" class="nav-link text-gray-400 hover:text-white">Kegiatan</a></li>
+            <li><a href="../news/" class="nav-link text-gray-400 hover:text-white">Berita</a></li>
+            <li><a href="../gallery/" class="nav-link text-gray-400 hover:text-white">Galeri</a></li>
+            <li><a href="../contact/" class="nav-link text-gray-400 hover:text-white">Kontak</a></li>
+            </ul>
+
+            <!-- Mobile Navigation Toggle -->
+            <button id="menuBtn" class="md:hidden text-white text-2xl">
+                &#9776;
+            </button>
+
+        </nav>
+
+        <!-- Mobile Navigation Menu -->
+        <ul id="mobileMenu" class="hidden flex flex-col gap-4 px-6 pb-4 text-sm text-gray-400 md:hidden">
+        <li><a href="../" class="nav-link text-gray-400 hover:text-white">Beranda</a></li>
+        <li><a href="../about/" class="nav-link text-gray-400 hover:text-white">Tentang</a></li>
+        <li><a href="./" class="nav-link text-gray-400 hover:text-white text-white">Anggota</a></li>
+        <li><a href="../events/" class="nav-link text-gray-400 hover:text-white">Kegiatan</a></li>
+        <li><a href="../news/" class="nav-link text-gray-400 hover:text-white">Berita</a></li>
+        <li><a href="../gallery/" class="nav-link text-gray-400 hover:text-white">Galeri</a></li>
+        <li><a href="../contact/" class="nav-link text-gray-400 hover:text-white">Kontak</a></li>
+        </ul>
+
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        
+        <section class="max-w-6xl mx-auto px-6 py-20">
+
+            <h1 class="text-3xl md:text-4xl tracking-widest font-bold mb-10">
+                ANGGOTA KAMI
+            </h1>
+            <p class="text-gray-400 text-lg leading-relaxed mb-10">
+                Berikut adalah daftar anggota Abul Team, baik yang aktif maupun pasif, beserta peran mereka dalam perkumpulan ini. Perlu dicatat bahwa peran yang tercantum tidak mencerminkan tinggi-rendahnya status anggota, melainkan hanya sebagai informasi tambahan berdasarkan kontribusi dominan selama ini. Kami menghargai setiap anggota kami tanpa memandang peran mereka, karena setiap individu memiliki kontribusi yang berharga dalam menjaga kekompakan dan kehangatan keluarga besar Abul Team.
+            </p> 
+
+            <!-- Grid Anggota -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+                <!-- Card 1 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/zakky.png" class="aspect-square object-cover mb-4" alt="Foto Zakky">
+                    <h3 class="text-sm tracking-wide">Muzakky D.R.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Game / Koordinator Kegiatan</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/kukuh.png" class="aspect-square object-cover mb-4" alt="Foto Kukuh">
+                    <h3 class="text-sm tracking-wide">Kukuh D.L.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Tim Hore</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/bibin.png" class="aspect-square object-cover mb-4" alt="Foto Bibin">
+                    <h3 class="text-sm tracking-wide">Bibin S.P.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Kesehatan</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/hafidz.png" class="aspect-square object-cover mb-4" alt="Foto Hafidz">
+                    <h3 class="text-sm tracking-wide">A. Hafidz A.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Game</p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/azizzu.png" class="aspect-square object-cover mb-4" alt="Foto Azizzu">
+                    <h3 class="text-sm tracking-wide">Azizzu M.Z.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Tim Hore</p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/dede.png" class="aspect-square object-cover mb-4" alt="Foto Dede">
+                    <h3 class="text-sm tracking-wide">Dede A.B.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Tim Hore</p>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/surya.png" class="aspect-square object-cover mb-4" alt="Foto Surya">
+                    <h3 class="text-sm tracking-wide">Surya B.</h3>
+                    <p class="text-gray-400 text-xs">Pendiri / Spesialis Game</p>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/hamdan.png" class="aspect-square object-cover mb-4" alt="Foto Hamdan">
+                    <h3 class="text-sm tracking-wide">M. Hamdan R.A.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/dimas.png" class="aspect-square object-cover mb-4" alt="Foto Dimas">
+                    <h3 class="text-sm tracking-wide">Dimas F.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/ahmad.png" class="aspect-square object-cover mb-4" alt="Foto Ahmad">
+                    <h3 class="text-sm tracking-wide">Ahmad S.A.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/warsa.png" class="aspect-square object-cover mb-4" alt="Foto Warsa">
+                    <h3 class="text-sm tracking-wide">Warsa</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 12 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/bambang.png" class="aspect-square object-cover mb-4" alt="Foto Bambang">
+                    <h3 class="text-sm tracking-wide">Bambang P.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 13 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/jaryas.png" class="aspect-square object-cover mb-4" alt="Foto Jaryas">
+                    <h3 class="text-sm tracking-wide">M. Jaryas K.</h3>
+                    <p class="text-gray-400 text-xs">Spesialis Game</p>
+                </div>
+
+                <!-- Card 14 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/hasiin.png" class="aspect-square object-cover mb-4" alt="Foto Hasiin">
+                    <h3 class="text-sm tracking-wide">Hasiin A.S.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 15 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/hanif.png" class="aspect-square object-cover mb-4" alt="Foto Hanif">
+                    <h3 class="text-sm tracking-wide">Hanif F.F.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 16 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/rangga.png" class="aspect-square object-cover mb-4" alt="Foto Rangga">
+                    <h3 class="text-sm tracking-wide">Rangga A.P.</h3>
+                    <p class="text-gray-400 text-xs">Inisiator Kuliner & Kegiatan / Spesialis Game, Gawai, & Diskon</p>
+                </div>
+
+                <!-- Card 17 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/bintang.png" class="aspect-square object-cover mb-4" alt="Foto Bintang">
+                    <h3 class="text-sm tracking-wide">Bintang A.</h3>
+                    <p class="text-gray-400 text-xs">Spesialis Game / Inisiator Mabar</p>
+                </div>
+
+                <!-- Card 18 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/bagus.png" class="aspect-square object-cover mb-4" alt="Foto Bagus">
+                    <h3 class="text-sm tracking-wide">Bagus S.S.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 19 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/fadil.png" class="aspect-square object-cover mb-4" alt="Foto Fadil">
+                    <h3 class="text-sm tracking-wide">Fadillah F.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 20 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/toni.png" class="aspect-square object-cover mb-4" alt="Foto Toni">
+                    <h3 class="text-sm tracking-wide">Toni R.P.</h3>
+                    <p class="text-gray-400 text-xs">Spesialis Desain & Dokumentasi / Notulensi Kegiatan</p>
+                </div>
+
+                <!-- Card 21 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/fatwa.png" class="aspect-square object-cover mb-4" alt="Foto Fatwa">
+                    <h3 class="text-sm tracking-wide">Fatwa H.F.</h3>
+                    <p class="text-gray-400 text-xs">Inisiator Mabar</p>
+                </div>
+
+                <!-- Card 22 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/parhan.png" class="aspect-square object-cover mb-4" alt="Foto Parhan">
+                    <h3 class="text-sm tracking-wide">Parhan</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 23 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/gilang.png" class="aspect-square object-cover mb-4" alt="Foto Gilang">
+                    <h3 class="text-sm tracking-wide">R. Gilang P.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 24 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/nurrizqi.png" class="aspect-square object-cover mb-4" alt="Foto Nurrizqi">
+                    <h3 class="text-sm tracking-wide">M. Nurrizqi M.A.A.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>                
+
+                <!-- Card 25 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/udin.png" class="aspect-square object-cover mb-4" alt="Foto Udin">
+                    <h3 class="text-sm tracking-wide">Farhanudin N.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 26 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/alfian.png" class="aspect-square object-cover mb-4" alt="Foto Alfian">
+                    <h3 class="text-sm tracking-wide">Alfian E.S.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+                <!-- Card 27 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">  
+                    <img src="../assets/images/asep.png" class="aspect-square object-cover mb-4" alt="Foto Asep">
+                    <h3 class="text-sm tracking-wide">Asep S.</h3>
+                    <p class="text-gray-400 text-xs">Spesialis Game</p>
+                </div>
+
+                <!-- Card 28 -->
+                <div class="border border-gray-800 p-4 hover:border-white hover:scale-105 transition">
+                    <img src="../assets/images/aji.png" class="aspect-square object-cover mb-4" alt="Foto Aji">
+                    <h3 class="text-sm tracking-wide">A. Aji S.</h3>
+                    <p class="text-gray-400 text-xs">Tim Hore</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- TIMELINE -->
+        <section class="max-w-6xl mx-auto px-6">
+
+            <h2 class="text-2xl font-bold mb-10">TIMELINE</h2>
+
+            <!-- ANGGOTA -->
+            <div>
+
+                <!-- Zakky -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Zakky</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Kukuh -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Kukuh</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Bibin -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Bibin</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Haikal -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm text-gray-400">Haikal</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 49%;"></div>
+                    </div>
+                </div>
+
+                <!-- Hafidz -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Hafidz</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Azizzu -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Azizzu</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Dede -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Dede</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Surya -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Surya</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 0%; width: 100%;"></div>
+                    </div>
+                </div>
+
+                <!-- Hamdan -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Hamdan</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 3%; width: 97%;"></div>
+                    </div>
+                </div>
+
+                <!-- Dimas -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Dimas</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 5%; width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Ahmad -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Ahmad</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 5%; width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Warsa -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Warsa</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 5%; width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Bambang -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Bambang</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 5%; width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Jaryas -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Jaryas</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 5%; width: 95%;"></div>
+                    </div>
+                </div>
+
+                <!-- Hasiin -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Hasiin</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 7%; width: 93%;"></div>
+                    </div>
+                </div>
+
+                <!-- Hanif -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Hanif</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 7%; width: 93%;"></div>
+                    </div>
+                </div>
+
+                <!-- Rangga -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Rangga</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 6%; width: 94%;"></div>
+                    </div>
+                </div>
+
+                <!-- Bintang -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Bintang</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 8%; width: 92%;"></div>
+                    </div>
+                </div>
+
+                <!-- Bagus -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Bagus</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 6%; width: 94%;"></div>
+                    </div>
+                </div>
+
+                <!-- Fadil -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Fadil</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 6%; width: 94%;"></div>
+                    </div>
+                </div>
+
+                <!-- Farhan -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm text-gray-400">Farhan</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 7%; width: 77%;"></div>
+                    </div>
+                </div>
+
+                <!-- Toni -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Toni</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 9%; width: 91%;"></div>
+                    </div>
+                </div>
+
+                <!-- Fatwa -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Fatwa</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 12%; width: 88%;"></div>
+                    </div>
+                </div>
+
+                <!-- Parhan -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Parhan</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 12%; width: 88%;"></div>
+                    </div>
+                </div>
+
+                <!-- Gilang -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Gilang</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 15%; width: 85%;"></div>
+                    </div>
+                </div>
+
+                <!-- Nurrizqi -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Nurrizqi</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 11%; width: 89%;"></div>
+                    </div>
+                </div>
+
+                <!-- Nick -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm text-gray-400">Nick</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 16%; width: 15%;"></div>
+                    </div>
+                </div>
+
+                <!-- Udin -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Udin</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 18%; width: 82%;"></div>
+                    </div>
+                </div>
+
+                <!-- Alfian -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Alfian</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 22%; width: 78%;"></div>
+                    </div>
+                </div>
+
+                <!-- Asep -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Asep</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 60%; width: 40%;"></div>
+                    </div>
+                </div>
+
+                <!-- Aji -->
+                <div class="grid grid-cols-[120px_1fr] items-center gap-4">
+                    <div class="text-sm">Aji</div>
+                    <div class="relative w-full h-1 bg-gray-900">
+                        <div class="absolute h-full bg-white rounded-lg"
+                        style="left: 49%; width: 51%;"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- GRID TAHUN -->
+            <div class="grid grid-cols-[120px_1fr] items-center mb-4">
+                <div></div>
+                <div class="flex justify-between text-xs text-gray-500">
+                    <span>2017</span><span>2018</span><span>2019</span><span>2020</span><span>2021</span><span>2022</span>
+                    <span>2023</span><span>2024</span><span>2025</span><span>2026</span>
+                </div>
+                
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 mt-20 text-white">
+
+        <div class="max-w-6xl mx-auto px-6 py-10">
+
+            <div class="flex flex-col md:flex-row md:justify-between gap-8">
+
+                <div>
+                    <h3 class="text-lg font-bold tracking-widest mb-2">
+                        ABUL TEAM
+                    </h3>
+                    <p class="text-gray-400 text-sm">
+                        We are Friends, We are Family, We are Abul Team.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold mb-2">KONTAK</h4>
+                    <p class="text-gray-400 text-sm">abulteam2017@gmail.com</p>
+                    <p class="text-gray-400 text-sm hover:text-white transition">Instagram: @abulteam17</p>
+                </div>
+
+                <div>
+                    <h4 class="text-sm font-bold mb-2">NAVIGASI</h4>
+                    <ul class="text-gray-400 text-sm space-y-1">
+                        <li><a href="../" class="hover:text-white">Beranda</a></li>
+                        <li><a href="./" class="hover:text-white">Anggota</a></li>
+                        <li><a href="../events/" class="hover:text-white">Kegiatan</a></li>
+                        <li><a href="../gallery/" class="hover:text-white">Galeri</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-4 text-center text-gray-500 text-xs">
+                &copy; 2026 Abul Team. Built by Toni.
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
