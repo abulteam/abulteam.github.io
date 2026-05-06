@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are Friends, We are Family, We are Abul Team.">
+    <title>Changelog | Abul Team</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font dari Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/icons/abullogo.png" type="image/png">
+
+</head>
+<body>
+    
+    <!-- CUSTOM NAVBAR UTK CHANGELOG -->
+    <header class="border-b border-gray-800">
+        <nav class="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+            
+            <!-- Logo -->
+            <a href="../" class="flex items-center">
+                <img src="../assets/icons/abullogo.png" alt="Abul Team Logo" class="h-8 w-auto">
+            </a>
+
+            <!-- Desktop Navigation -->
+            <ul class="hidden md:flex gap-6 text-sm text-gray-400">
+            <li><a href="../" class="nav-link text-gray-400 hover:text-white">← Kembali ke Beranda</a></li>
+            </ul>
+
+            <!-- Mobile Navigation Toggle -->
+            <button id="menuBtn" class="md:hidden text-white text-2xl">
+                &#9776;
+            </button>
+
+        </nav>
+
+        <!-- Mobile Navigation Menu -->
+        <ul id="mobileMenu" class="hidden flex flex-col gap-4 px-6 pb-4 text-sm text-gray-400 md:hidden">
+        <li><a href="../" class="nav-link text-gray-400 hover:text-white">← Kembali ke Beranda</a></li>
+        </ul>
+
+    </header>
+
+    <!-- CHANGELOG -->
+    <section class="max-w-6xl mx-auto px-6 py-16 text-white">
+
+        <h1 class="text-3xl font-bold text-white mb-6">CHANGELOG</h1>
+
+        <div class="space-y-10">
+
+            <!-- ITEM -->
+            <div class="border-1 border-gray-700 pl-4">
+                <p class="text-xs text-gray-600">
+                    6 Mei 2026
+                </p>
+
+                <h2 class="text-lg font-bold">
+                    v1.1 — Update Konten
+                </h2>
+
+                <ul class="text-sm text-gray-400 mt-2 space-y-1">
+                    <li>- Mengisi konten halaman Kegiatan (list, video)</li>
+                    <li>- Menyisipkan timeline anggota</li>
+                    <li>- Memperbaiki struktur website supaya linknya gak .html</li>
+                    <li>- Mengonversi navbar dan footer jadi component</li>
+                    <li>- Membuat halaman changelog</li>
+                </ul>
+
+            </div>
+
+            <!-- ITEM -->
+            <div class="border-1 border-gray-700 pl-4">
+                <p class="text-xs text-gray-600">
+                    28 April 2026
+                </p>
+
+                <h2 class="text-lg font-bold">
+                    v1.0 — Rilis Awal
+                </h2>
+
+                <ul class="text-sm text-gray-400 mt-2 space-y-1">
+                    <li>- Peluncuran website</li>
+                    <li>- Mengisi konten halaman Beranda dan Anggota</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER CUSTOM -->
+    <div class="border-t border-gray-800 mt-8 pt-4 text-center text-gray-500 text-xs">
+        &copy; 2026 Abul Team. Built by Toni.
+    </div>
+
+</body>
